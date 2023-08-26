@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Component Library</h1>
+  <hr>
+  
+  <h2>@typography</h2>
+
+  <h1>This is the biggest heading h1</h1>
+  <h2>This is second biggest heading h2</h2>
+  <p>This is normal text. Long running text would look like this on your website. This will auto fold based on width.</p>
+  <p class="text-sm">This is relatively small text</p>
+
+  <hr>
+  <h2>@containers</h2>
+
+  <h3>@fluid container</h3>
+  <div class="container-fluid">
+    This is going to be fluid container. It will go full width of the page. With some margin.
+  </div>
+
+  <h3>@center container</h3>
+  <div class="container">
+    This is going to be cente container. It will go till a given width and center content.
+  </div>
+
+  <hr>
+  <h2>@links</h2>
+
+  <a class="link-primary" href="/">Primary Links</a>
+  <a class="link-secondary" href="/">Secondary Links</a>
+
+  <hr>
+  <h2>@lists</h2>
+
+  <h3>@unorder lists</h3>
+
+  <p>We don't want bullets in unorder list. We'll remove that with CSS.</p>
+
+  <ul class="unordered">
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+  </ul>
+
+  <h3>@inline lists</h3>
+
+  <p>Instead of going in a new row, we'll create a list which willtake colums.</p>
+
+  <ul class="unordered list-inline">
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+  </ul>
+
+  <h3>@reverse order lists</h3>
+
+  <p>Counting will go reverse for this list.</p>
+
+  <ol class="reversed">
+    <li>something</li>
+    <li>something else</li>
+    <li>something else</li>
+  </ol>
+
+  <hr>
+  <h2>@nav</h2>
+
+  <p>Navigation is used on the top of the page and used to get to different pages</p>
+
+<nav class="navigation">
+    <div class="container-fluid">
+        <div class="brand">theBrandName</div>
+        <ul>
+            <li>
+                <a href="/" class="active">home</a>
+            </li>
+            <li>
+                <a href="/">product</a>
+            </li>
+            <li>
+                <a href="/">about</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<hr>
+<h2>@header</h2>
+
+<header class="container-hero">
+    <img src="/images/header-image.svg">
+    <h1>This is heading h1 inside header.</h1>
+</header>
+
+<hr>
+<h2>@section</h2>
+
+<p> A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
+
+<h3>@normal section</h3>
+
+<section class="section">
+    <h2>heading inside section</h2>
+    <p>Text defining this section and many more things.</p>
+    <a href="/" class="link-primary">Primary button</a>
+</section>
+
+<h3>@an off white section</h3>
+
+<section class="section ow">
+    <h2>inside off white section</h2>
+    <p>Text defining this section and many more things.</p>
+</section>
+
+<hr>
+<h2>@footer</h2>
+
+<footer class="footer container-fluid">
+    <div class="container">
+        <div class="header">header inside footer</div>
+        <ul class="unordered list-inline">
+            <li>social one</li>
+            <li>social two</li>
+            <li>social three</li>
+        </ul>
+    </div>
+</footer>
+
+
+</body>
+</html>
