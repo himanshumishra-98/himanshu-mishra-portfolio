@@ -160,6 +160,11 @@ hr {
     border-top-right-radius: 1rem;
 }
 
+.footer > li {
+    display: flex;
+    justify-content: first baseline;
+}
+
 .footer .link {
     color: white;
 }
@@ -173,10 +178,10 @@ hr {
     padding-inline-start: 0px;
 }
 
-.list-item-inline img {
+/* .list-item-inline img {
     width: 30px;
     height: 30px;
-}
+} */
 
 /** projects **/
 
